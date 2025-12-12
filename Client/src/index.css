@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark Mode (Default) */
+.dark {
+  background-color: #13131a;
+  color: #ffffff;
+}
+
+/* Light Mode */
+.light {
+  background-color: #f4f4f4;
+  color: #1c1c24;
+}
+
+.light body {
+  background-color: #f4f4f4;
+}
+
+.dark body {
+  background-color: #13131a;
+}
+
+/* Light mode adjustments for specific elements */
+.light .bg-\[\#1c1c24\] {
+  background-color: #ffffff !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.light .bg-\[\#2c2f32\] {
+  background-color: #e5e5e5 !important;
+}
+
+.light .bg-\[\#13131a\] {
+  background-color: #ffffff !important;
+}
+
+.light .text-white {
+  color: #1c1c24 !important;
+}
+
+.light input,
+.light textarea,
+.light select {
+  background-color: #ffffff !important;
+  color: #1c1c24 !important;
+  border: 1px solid #d1d5db;
+}
+
+.light .shadow-secondary {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.light .grayscale {
+  filter: grayscale(100%) brightness(0.3);
+}
+
+/* Navbar and sidebar adjustments */
+.light nav,
+.light aside {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card adjustments */
+.light [class*="bg-[#1c"] {
+  background-color: #ffffff !important;
+  border: 1px solid #e5e7eb;
+}
+
+/* Button adjustments */
+.light button {
+  color: inherit;
+}
+
+.light .bg-\[\#8c6dfd\] {
+  background-color: #8c6dfd !important;
+  color: #ffffff !important;
+}
+
+.linear-gradient {
+  background: linear-gradient(
+    179.14deg,
+    rgba(32, 18, 63, 0) -7.14%,
+    #000000 87.01%
+  );
+}
+
+.light .linear-gradient {
+  background: linear-gradient(
+    179.14deg,
+    rgba(255, 255, 255, 0) -7.14%,
+    #f4f4f4 87.01%
+  );
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(0.8);
+}
+
+.light input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.2);
+}
