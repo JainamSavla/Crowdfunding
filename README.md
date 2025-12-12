@@ -103,7 +103,7 @@ VITE_CONTRACT_ADDRESS=Get from WEB3 Dashboard after deploying project  npm run d
 
 
 ### Campaign Creation
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/66355060-ae89-4390-9fd0-ee289d6692cc" />
+<img width="1576" height="775" alt="image" src="https://github.com/user-attachments/assets/b824e9d9-6f7d-4dc2-802d-463c4f167cb4" />
 
 
 ### Campaign Details
