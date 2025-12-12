@@ -1,4 +1,4 @@
-# MERN Crowdfunding Platform
+# MERN Crowdfunding Platform:-https://crowdfunding-seven-snowy.vercel.app/
 
 A full-stack **MERN (MongoDB, Express, React, Node.js)** crowdfunding application that enables users to create campaigns, make donations, and track funding progress.
 
@@ -55,12 +55,12 @@ A full-stack **MERN (MongoDB, Express, React, Node.js)** crowdfunding applicatio
 ---
 
 ## 🏗 Architecture
-![System Architecture Diagram](https://github.com/user-attachments/assets/f76183d3-09e2-4d45-9d72-5e75a2af8b66)
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/2327d96c-be4d-4364-bd9a-e59038c7b403" />
 
 ---
 
 ## 🗄 Database Schema
-![Database Schema](https://github.com/user-attachments/assets/06ae31f3-0f72-43f3-8d49-083af42d594a)
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/45a8dc53-85e9-4b71-9c58-c8b45f0e27d0" />
 
 ### **Main Collections**
 - **Users** — Authentication & profile  
@@ -99,13 +99,16 @@ VITE_CONTRACT_ADDRESS=Get from WEB3 Dashboard after deploying project  npm run d
 ```
 ## 📸 Screenshots
 ### Homepage
-<img width="1425" height="752" alt="image" src="https://github.com/user-attachments/assets/30f4437e-6caa-4389-af22-71e92750eb01" />
+<img width="1583" height="768" alt="image" src="https://github.com/user-attachments/assets/8b478df5-e2f6-49b3-8fec-c7f861c3ee10" />
+
 
 ### Campaign Creation
-<img width="1529" height="783" alt="image" src="https://github.com/user-attachments/assets/3ec97582-8e96-4655-8f66-0a68ec88952b" />
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/66355060-ae89-4390-9fd0-ee289d6692cc" />
+
 
 ### Campaign Details
-<img width="1312" height="762" alt="image" src="https://github.com/user-attachments/assets/85986c02-cc70-4e1b-a16f-d8e68622a2ed" />
+<img width="1593" height="698" alt="image" src="https://github.com/user-attachments/assets/f14adbf7-9b87-4cd2-9682-344fe201ff30" />
+
 
 Made with MERN STACK +WEB3
 
